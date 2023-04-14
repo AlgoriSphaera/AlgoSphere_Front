@@ -1,10 +1,10 @@
-import "./SignUpForm.scss";
+import "./SignInForm.scss";
 
-function SignUpForm() {
+function SignInForm() {
     return (
-        <form method="POST" action="http://localhost:8080/authentication/signUp"
-            className="SignUpForm">
-            <h1>Register</h1>
+        <form method="POST" action="http://localhost:8080/authentication/signIn"
+            className="SignInForm">
+            <h1>Login</h1>
             <label htmlFor="email">Email:</label>
             <input type="email" name="email" id="email" />
             <label htmlFor="password">Password:</label>
@@ -14,4 +14,4 @@ function SignUpForm() {
     );
 }
 
-export default SignUpForm;
+export default SignInForm;
