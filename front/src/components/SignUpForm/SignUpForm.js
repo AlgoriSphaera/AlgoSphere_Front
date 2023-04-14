@@ -9,7 +9,7 @@ function SignUpForm() {
             <input type="email" name="email" id="email" />
             <label htmlFor="password">Password:</label>
             <input type="password" name="password" id="password" />
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Register" />
         </form>
     );
 }

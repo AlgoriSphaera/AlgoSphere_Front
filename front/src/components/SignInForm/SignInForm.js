@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./SignInForm.scss";
 
 function SignInForm() {
@@ -9,7 +10,8 @@ function SignInForm() {
             <input type="email" name="email" id="email" />
             <label htmlFor="password">Password:</label>
             <input type="password" name="password" id="password" />
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Login" />
+            <p>Not registered?<NavLink to="/register">Register!</NavLink></p>
         </form>
     );
 }
